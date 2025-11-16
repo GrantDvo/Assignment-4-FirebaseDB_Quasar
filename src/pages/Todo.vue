@@ -1,7 +1,3 @@
-// TEMPORARY COMMIT FIX - DELETE LATER
-import { defineComponent } from 'vue'
-// ... rest of the script content
-
 <template>
   <q-page class="bg-grey-3 column">
     <div class="row q-pa-sm bg-primary">
