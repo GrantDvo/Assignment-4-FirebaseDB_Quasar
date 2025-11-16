@@ -1,3 +1,7 @@
+// TEMPORARY COMMIT FIX - DELETE LATER
+import { defineComponent } from 'vue'
+// ... rest of the script content
+
 <template>
   <q-page class="bg-grey-3 column">
     <div class="row q-pa-sm bg-primary">
@@ -31,7 +35,7 @@
 
 <script>
 import { defineComponent } from 'vue'
-import db from '../firebaseDb.js'
+import db from '../firebaseDB.js'
 import { collection, onSnapshot, addDoc, doc, deleteDoc, updateDoc } from 'firebase/firestore'
 
 const todoCollectionRef = collection(db, 'ToDoItems') // Database collection reference
